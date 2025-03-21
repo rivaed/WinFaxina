@@ -8,7 +8,7 @@ Faça backup dos seus dados antes de executar este script.
 
 ## Descrição
 
-O *Windows Optimization Script: Faxina no Sistema* é uma ferramenta de manutenção para Windows que automatiza diversas tarefas de limpeza e otimização. O objetivo é liberar espaço em disco e melhorar o desempenho do sistema, removendo arquivos desnecessários acumulados ao longo do tempo.
+O *WinFaxina* é uma ferramenta de manutenção para Windows que automatiza diversas tarefas de limpeza e otimização. O objetivo é liberar espaço em disco e melhorar o desempenho do sistema, removendo arquivos desnecessários acumulados ao longo do tempo.
 
 ## Funcionalidades
 
