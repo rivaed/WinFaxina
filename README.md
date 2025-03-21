@@ -1,4 +1,5 @@
-# Windows Optimization Script: Faxina no Sistema
+
+# WinFaxina
 
 **AVISO IMPORTANTE:**  
 ESTE SCRIPT É FORNECIDO "COMO ESTÁ" SEM QUALQUER GARANTIA. AO UTILIZAR ESTE SCRIPT, VOCÊ ASSUME TODAS AS RESPONSABILIDADES E RISCOS. USE POR SUA PRÓPRIA CONTA E RISCO.  
@@ -36,7 +37,7 @@ O *Windows Optimization Script: Faxina no Sistema* é uma ferramenta de manuten�
 
 ## Pré-requisitos
 
-- Windows com privilégios administrativos.
+- Windows 10 ou Windows 11 com privilégios administrativos.
 - PowerShell instalado.
 - Permissão para execução de scripts (pode ser necessário ajustar a política de execução usando `Set-ExecutionPolicy RemoteSigned`).
 
@@ -46,3 +47,49 @@ O *Windows Optimization Script: Faxina no Sistema* é uma ferramenta de manuten�
    ```powershell
    git clone <URL_DO_REPOSITÓRIO>
    cd <NOME_DO_REPOSITÓRIO>
+   ```
+
+2. **Configure a política de execução (se necessário):**
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+
+3. **Abra o PowerShell como Administrador:**
+   - Clique com o botão direito no ícone do PowerShell e selecione "Executar como Administrador".
+
+4. **Navegue até o diretório onde o script foi salvo:**
+   ```powershell
+   cd C:\Caminho\Para\O\Script
+   ```
+
+5. **Execute o script:**
+   ```powershell
+   .\otimizacao_windows.ps1
+   ```
+
+   O script executará as seguintes tarefas:
+   - Limpeza dos arquivos temporários do usuário e do sistema.
+   - Esvaziamento da Lixeira.
+   - Limpeza da pasta Prefetch.
+   - Limpeza do cache de atualizações.
+   - Remoção de logs e relatórios de erros antigos.
+   - Otimização do componente store do Windows via DISM.
+   - Limpeza dos caches dos navegadores (Chrome, Edge e Firefox).
+   - Limpeza de arquivos temporários de aplicativos.
+
+## Atenção
+
+- **Uso por sua própria conta e risco:**  
+  Este script é fornecido sem garantias. O usuário é o único responsável por quaisquer danos ou perdas decorrentes do seu uso. Teste o script em um ambiente controlado antes de aplicá-lo em sistemas críticos.
+
+- **Backup:**  
+  Faça backup dos seus dados antes de executar o script.
+
+## Contribuições
+
+Contribuições, sugestões e melhorias são bem-vindas. Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+```
