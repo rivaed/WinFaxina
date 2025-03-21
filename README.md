@@ -43,28 +43,21 @@ O *Windows Optimization Script: Faxina no Sistema* é uma ferramenta de manuten�
 
 ## Instruções de Uso
 
-1. **Clone o repositório:**
+### Método 1: Baixando e Executando o Script
+
+1. **Baixe o script `winfaxina.ps1`.**
+2. **Abra o PowerShell como Administrador.**
+3. **Habilite a execução de scripts** (caso necessário):
    ```powershell
-   git clone <URL_DO_REPOSITÓRIO>
-   cd <NOME_DO_REPOSITÓRIO>
+   Set-ExecutionPolicy Unrestricted -Scope CurrentUser
    ```
-
-2. **Configure a política de execução (se necessário):**
-   ```powershell
-   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-   ```
-
-3. **Abra o PowerShell como Administrador:**
-   - Clique com o botão direito no ícone do PowerShell e selecione "Executar como Administrador".
-
 4. **Navegue até o diretório onde o script foi salvo:**
    ```powershell
-   cd C:\Caminho\Para\O\Script
+   cd C:\caminho\para\o\script
    ```
-
 5. **Execute o script:**
    ```powershell
-   .\otimizacao_windows.ps1
+   .\winfaxina.ps1
    ```
 
    O script executará as seguintes tarefas:
@@ -92,4 +85,3 @@ Contribuições, sugestões e melhorias são bem-vindas. Sinta-se à vontade par
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-```
